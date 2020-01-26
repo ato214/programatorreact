@@ -6,11 +6,9 @@ class Car extends React.Component {
 
         for (var i = 0; i < this.props.brand.length; i++)
         {
-
             if(i > 0) {
                 cars += " and "
             }
-
             cars += this.props.brand[i];
         }
 
